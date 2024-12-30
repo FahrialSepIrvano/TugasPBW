@@ -3,7 +3,7 @@ session_start();
 
 include "koneksi.php";  
 
-//check jika belum ada user yang login arahkan ke halaman login
+
 if (!isset($_SESSION['username'])) { 
 	header("location:login.php"); 
 } 
@@ -88,17 +88,17 @@ if (!isset($_SESSION['username'])) {
     <!-- footer begin -->
     <footer class="text-center p-5 bg-danger-subtle footer bottom">
     <div>
-        <a href="https://www.instagram.com/Imvanz_"
-        ><i class="bi bi-instagram h2 p-2 text-dark"></i
-        ></a>
-        <a href="https://twitter.com/udinusofficial"
-        ><i class="bi bi-twitter h2 p-2 text-dark"></i
-        ></a>
-        <a href="https://wa.me/+6287700313085"
-        ><i class="bi bi-whatsapp h2 p-2 text-dark"></i
-        ></a>
+    <a href="https://www.instagram.com/irvianoo/" class="h2 p-2 text-dark" target="_blank">
+                <i class="bi bi-instagram"></i> <!-- Gunakan ikon dari Bootstrap Icons -->
+            </a>
+            <a href="https://www.tiktok.com/@irvianooo?_t=8seAYTxa0dp&_r=1" class="h2 p-2 text-dark" target="_blank">
+                <i class="bi bi-tiktok"></i> <!-- Gunakan ikon dari Bootstrap Icons -->
+            </a>
+            <a href="https://x.com/fahrialseptian?s=11" class="h2 p-2 text-dark" target="_blank">
+                <i class="bi bi-twitter"></i> <!-- Gunakan ikon dari Bootstrap Icons -->
+            </a>
     </div>
-    <div>Muhammad Ivan Rafsanjani &copy; 2024</div>
+    <div>Fahrial Septian Irviano &copy; 2024</div>
     </footer>
     <!-- footer end -->
     <script

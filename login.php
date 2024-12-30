@@ -132,13 +132,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="foto/gambar 1.jpg" class="d-block w-100" alt="First Slide">
+                        <img src="../web_daily_lanjutan/gambar/gallmd1.jpg" class="d-block w-100" alt="First Slide">
                     </div>
                     <div class="carousel-item">
-                        <img src="foto/gambar 2.jpg" class="d-block w-100" alt="Second Slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="foto/gambar 3.jpg" class="d-block w-100" alt="Third Slide">
+                        <img src="../web_daily_lanjutan/gambar/gallmd2.jpg" alt="Second Slide">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">

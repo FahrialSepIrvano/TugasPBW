@@ -8,7 +8,7 @@ include "koneksi.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebFahrial</title>
     <!-- link bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
@@ -87,7 +87,7 @@ include "koneksi.php";
     <!-- navigation section -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container">
-          <a class="navbar-brand" href="#">Daily Jurnal</a>
+          <a class="navbar-brand" href="index.php">Fahrial Daily Jurnal</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -116,12 +116,13 @@ include "koneksi.php";
     <section id="hero" style="background-color: #e9ecef; padding: 60px 0;">
         <div class="container text-sm-start">
           <div class="d-sm-flex flex-sm-row-reverse align-items-center">
-            <img src="./gambar/06e71435913eb02d5b0474db57871740.jpg" class="img-fluid me-sm-4" width="300" alt="Image description">
+            <img src="../web_daily_lanjutan/gambar/madrid.jpg" class="img-fluid me-sm-4" width="300" alt="Image description">
             <div class="text-center text-sm-start">
-              <h1 class="fw-bold display-2">Manchester United</h1>
-              <h4 class="lead display-7">Gambar ini menunjukkan momen ikonik ketika para pemain Manchester United merayakan kemenangan mereka dengan mengangkat trofi Liga Premier Inggris (EPL).
-                 Dengan senyum dan sorak sorai, para pemain berkumpul di sekitar kapten yang memegang piala tinggi di atas kepala, 
-                simbol keberhasilan mereka dalam mencapai puncak kompetisi liga.</h4>
+              <h1 class="fw-bold display-2">Real Madrid</h1>
+              <h4 class="lead display-7">Real Madrid Club de Fútbol, didirikan pada 6 Maret 1902 di Madrid, Spanyol, adalah salah satu klub sepak bola paling legendaris di dunia. Dengan gelar "Real" 
+                yang diberikan Raja Alfonso XIII pada 1920, klub ini telah menjadi simbol kejayaan sepak bola, baik di Spanyol maupun internasional. Dominasi Real Madrid dimulai pada dekade 1950-an 
+                dengan lima gelar Piala Eropa berturut-turut, berlanjut dengan proyek "Los Galácticos" di abad ke-21, hingga puncaknya saat meraih La Décima pada 2014 dan empat gelar Liga Champions dalam lima tahun di bawah Zinedine Zidane. 
+                Dikenal dengan akademi La Fábrica, stadion ikonik Santiago Bernabéu, dan dukungan fanatik Madridistas, Real Madrid tidak hanya mencetak sejarah, tetapi juga menjadi inspirasi global sebagai simbol ambisi, kerja keras, dan kejayaan sepak bola..</h4>
             </div>
           </div>
         </div>
@@ -173,61 +174,37 @@ include "koneksi.php";
                 <!-- Item Pertama -->
                 <div class="carousel-item active">
                     <div class="d-flex justify-content-center">
-                        <img src="./gambar/06e71435913eb02d5b0474db57871740.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 1">
+                        <img src="../web_daily_lanjutan/gambar/gallmd1.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 1">
                     </div>
                 </div>
                 <!-- Item Kedua -->
                 <div class="carousel-item">
                     <div class="d-flex justify-content-center">
-                        <img src="./gambar/333ebb95b7f1774b49fc1b34fa9b26de.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 2">
+                        <img src="../web_daily_lanjutan/gambar/gallmd2.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 2">
                     </div>
                 </div>
                 <!-- Item Ketiga -->
                 <div class="carousel-item">
                     <div class="d-flex justify-content-center">
-                        <img src="./gambar/37d50fe09448fa3b795a7f19166afd2b.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 3">
+                        <img src="../web_daily_lanjutan/gambar/gallmd3.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 3">
                     </div>
                 </div>
                 <!-- Item Keempat -->
                 <div class="carousel-item">
                     <div class="d-flex justify-content-center">
-                        <img src="./gambar/39ce2c2fa7a86965d8663e766b70a8ab.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 4">
+                        <img src="../web_daily_lanjutan/gambar/gallmd4.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 4">
                     </div>
                 </div>
                 <!-- Item Kelima -->
                 <div class="carousel-item">
                     <div class="d-flex justify-content-center">
-                        <img src="./gambar/69ec278e6869eeb8a187a2fbde43a056.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 5">
+                        <img src="../web_daily_lanjutan/gambar/gallmd5.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 5">
                     </div>
                 </div>
                 <!-- Item Keenam -->
                 <div class="carousel-item">
                     <div class="d-flex justify-content-center">
-                        <img src="./gambar/b8563131f893fe4979a9d1b9d978e5a0.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 6">
-                    </div>
-                </div>
-                <!-- Item Ketujuh -->
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <img src="./gambar/cf2220dd9d36b0589c346ce11dd7700f.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 7">
-                    </div>
-                </div>
-                <!-- Item Kedelapan -->
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <img src="./gambar/f030332428b77eb21f417aca5abdced7.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 8">
-                    </div>
-                </div>
-                <!-- Item Kesembilan -->
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <img src="./gambar/f129ded9dc88bde9ae734ad627ad8cce.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 9">
-                    </div>
-                </div>
-                <!-- Item Kesepuluh -->
-                <div class="carousel-item">
-                    <div class="d-flex justify-content-center">
-                        <img src="./gambar/f5df9af8497d3fd7493499011ff63a65.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 10">
+                        <img src="../web_daily_lanjutan/gambar/gallmd6.jpg" class="d-block" style="max-width: 90%; height: auto;" alt="Gambar 6">
                     </div>
                 </div>
             </div>
@@ -245,31 +222,37 @@ include "koneksi.php";
         <br><br>
     
         <div class="video text-center">
-            <h2><b>-Video-</b></h2>
-            <div class="responsive-iframe">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/JuRD8gSdmps?si=fde7JAePqzXtS7y9" 
-                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-                        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-        </div>
+    <h2><b>Video</b></h2>
+    <div class="responsive-iframe" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+        <iframe 
+            src="https://www.youtube.com/embed/Yc-7IQqcqeM?si=rVWRkB8wrQZgSL1_" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen 
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+        </iframe>
+    </div>
+</div>
+
         
     </section>
     
     <!-- footer -->
     <footer class="bg-light text-center p-3">
         <div class="social-icons">
-            <a href="https://www.instagram.com/imvanz_" class="h2 p-2 text-dark" target="_blank">
+            <a href="https://www.instagram.com/irvianoo/" class="h2 p-2 text-dark" target="_blank">
                 <i class="bi bi-instagram"></i> <!-- Gunakan ikon dari Bootstrap Icons -->
             </a>
-            <a href="https://twitter.com" class="h2 p-2 text-dark" target="_blank">
-                <i class="bi bi-twitter"></i> <!-- Gunakan ikon dari Bootstrap Icons -->
+            <a href="https://www.tiktok.com/@irvianooo?_t=8seAYTxa0dp&_r=1" class="h2 p-2 text-dark" target="_blank">
+                <i class="bi bi-tiktok"></i> <!-- Gunakan ikon dari Bootstrap Icons -->
             </a>
-            <a href="https://wa.me/6287700313085" class="h2 p-2 text-dark" target="_blank">
-                <i class="bi bi-whatsapp"></i> <!-- Gunakan ikon dari Bootstrap Icons -->
+            <a href="https://x.com/fahrialseptian?s=11" class="h2 p-2 text-dark" target="_blank">
+                <i class="bi bi-twitter"></i> <!-- Gunakan ikon dari Bootstrap Icons -->
             </a>
         </div>
         <div class="copyright text-dark mt-2">
-            <p>&copy; 2024 Daily Jurnal. Muhammad Ivan Rafsanjani.</p>
+            <p>&copy; 2024 Daily Jurnal. Fahrial Septian Irviano.</p>
         </div>
     </footer>
 </body>
